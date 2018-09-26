@@ -169,7 +169,7 @@
     background-image: url(main.gif);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%, 100%;   
+    background-size: cover;   
     background-attachment: fixed;
     top: 0;
     padding-top: 200px;
