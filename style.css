@@ -282,6 +282,7 @@
     padding-top: 200px;
     padding-bottom: 280px;
     color:#fff;
+    background-size:cover;
     background-image:url("BG.png");
 }
 
