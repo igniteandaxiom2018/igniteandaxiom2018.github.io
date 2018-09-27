@@ -267,6 +267,9 @@
     .about-row {
         flex-direction:column
     }
+    .event{
+        background-repeat:repeat;
+    }
 }
 
 .club-info {
