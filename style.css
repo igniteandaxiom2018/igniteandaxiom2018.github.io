@@ -125,13 +125,13 @@
 .menu-toggle {
     position: absolute;
     top: .55rem;
-    right: .55rem;
+    right: 1rem;
     padding: 1.3rem;
     cursor: pointer
 }
 
 .arrow-bounce,.event,.event h1,.event p,.event-cell,.main {
-    position: relative
+    position: relative;
 }
 
 .aloo-tikki,.aloo-tikki:after,.aloo-tikki:before {
@@ -139,9 +139,7 @@
     display: block;
     height: 3px;
     background: #e74c3c;
-    width: 1.75em;
-    border-radius: 3px;
-    padding: 0;
+    width: 3em;
     transition: .3s
 }
 
@@ -172,6 +170,7 @@
     background-size: cover;   
     background-attachment: fixed;
     top: 0;
+    height:840px;
     padding-top: 200px;
     z-index: 1;
     color: #fff
@@ -180,7 +179,8 @@
 .main h1 {
     font-size: 6rem;
     color: #fff;
-    font-weight: 100
+    padding-top:10%;
+    font-weight: 500;
 }
 
 .main h3 {
@@ -200,12 +200,20 @@
 
 .left-btn {
     color: #fff;
-    border: 1px solid #fff
+    font-size:2rem;
+    background:#F44336;
+    font-weight:500;
+    border: 1px solid #F44336;
+    border-radius:25px;
+    padding-right:3%;
+    padding-left:3%;
+    padding-top:1%;
+    padding-bottom:1%;
 }
-
 .left-btn:hover {
-    background: #fff;
-    color: #000
+    color:#F44336;
+    background:#fff;
+    border-color:#fff;
 }
 
 .right-btn {
@@ -238,13 +246,13 @@
 
 .club-textbox h1 {
     font-family: Raleway,verdana;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 3rem;
-    color: #34495e
+    color: #34495e;
 }
 
 .club-textbox p {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 400;
     font-family: Raleway,verdana;
     text-align: justify;
@@ -270,13 +278,15 @@
 .event {
     padding-top: 200px;
     padding-bottom: 280px;
-    background: #f39c12
+    color:#fff;
+    background-repeat:no-repeat;
+    background-image:url("BG.png");
 }
 
 .event h1 {
-    font-size: 5rem;
+    font-size: 7rem;
     font-family: Raleway,verdana;
-    font-weight: 200
+    font-weight: 500;
 }
 
 .event p {
@@ -284,7 +294,7 @@
     width: 70%;
     font-family: Raleway,verdana;
     font-weight: 400;
-    font-size: 1.7rem
+    font-size: 2rem
 }
 
 .events {
@@ -299,46 +309,26 @@
 
 .event-cell {
     padding: 13px;
-    border-radius: 20px;
+    border-radius: 0px;
     font-family: Raleway,verdana;
-    font-size: 1.8rem;
-    background: 0 0;
-    font-weight: 300;
-    border: 2px solid #c0392b;
+    font-size: 2.4rem;
+    background:#FF5252;
+    font-weight: 400;
+    border: 2px solid #FF5252;
+    color:#fff;
     transition: .3s;
+    border-radius:0px;
     display: inline-block;
     z-index: 1
 }
-
-.event-cell:after {
-    position: absolute;
-    height: 0;
-    width: 0;
-    top: 0;
-    opacity: 0;
-    z-index: -1;
-    background: #c0392b;
-    border-radius: 20px;
-    transition: .3s
-}
-
 .flux-team,.team {
     position: relative
 }
-
-.event-cell:hover:after {
-    width: 100%;
-    height: 100%;
-    right: 0;
-    bottom: 0;
-    opacity: 1
+.event-cell:hover{
+    color:#FF5252;
+    background:#fff;
+    transition:0.3s;
 }
-
-.event-cell:hover {
-    color: #fff;
-    border: 2px solid transparent
-}
-
 button:active,button:focus {
     outline: 0
 }
@@ -355,16 +345,16 @@ button:active,button:focus {
 }
 
 .events h1,.team h1,.team-btn {
-    font-family: Raleway,verdana
+    font-family: Raleway,verdana;
 }
 
 .flux-eve {
-    background: #34495e
+    background: #34495e;
 }
 
 .events h1 {
     font-size: 7rem;
-    font-weight: 300;
+    font-weight: 500;
     padding-top: 50px;
     padding-bottom: 50px
 }
@@ -376,12 +366,13 @@ button:active,button:focus {
 .team {
     padding-top: 150px;
     padding-bottom: 180px;
-    background: #e0e0e0
+    background:#D32F2F;
 }
 
 .team h1 {
     font-size: 6rem;
-    font-weight: 200;
+    font-weight: 500;
+    color:#fff;
     padding-bottom: 80px
 }
 
@@ -394,16 +385,18 @@ button:active,button:focus {
 .team-btn {
     font-size: 2rem;
     padding: 15px;
-    background: #2ecc71;
+    background: #fff;
     border-radius: 30px;
-    color: #fff;
+    color: #D32F2F;
+    font-weight:500;
     margin: 20px;
     cursor: pointer;
     transition: .3s
 }
 
 .team-btn:hover {
-    color: #fff;
+    color: #D32F2F;
+    font-weight:500;
     border-radius: 0
 }
 
@@ -421,6 +414,7 @@ button:active,button:focus {
 .team-cell {
     border: 1px dashed #95a5a6;
     padding: 0;
+    color:#fff;
     font-family: Raleway,verdana;
     margin: 2.5px;
     border-radius: 10px
@@ -463,49 +457,28 @@ button:active,button:focus {
     padding-top: 100px;
     padding-bottom: 100px
 }
-.register{
-    padding-top: 2%;
-   background: #FFAFBD;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    font-family: Raleway,verdana;
-    padding-bottom: 12%;
-}
-.register h1{
-     text-align: center;
-    font-family: Raleway,verdana;
-    font-size: 4em;
-    font-weight: 200
-
-}
-.register-btn{
-    margin-top: 7%;
-}
-.register-btn a{
-    background-color: #1DE9B6;
-    font-size: 1.2em;
-    padding: 0.5%;
-    padding-left: 1%;
-    padding-right: 1%;
-    text-decoration: none;
-    color: #212121;
-}
 .contact h1 {
     text-align: center;
     padding-bottom: 70px;
     font-family: Raleway,verdana;
     font-size: 4em;
-    font-weight: 200
+    font-weight: 500;
 }
 
 .contax {
     font-size: 14px;
     width: 200px;
+    font-weight:bolder;
+    text-transform:uppercase;
     display: inline-block;
     -webkit-transition: .5s;
     cursor: pointer;
     margin: 20px
+}
+.one{
+    display:inline;
+    padding-right:5%;
+    margin-bottom:2%;
 }
 
 #text-2 {
@@ -523,12 +496,13 @@ background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, F
 }
 
 .footer {
-    padding: 50px;
+    padding: 25px;
     background: #34495e;
     color: #fff;
     font-size: 2rem;
     font-family: Raleway,verdana;
-    font-weight: 100
+    font-weight: 500;
+    text-transform:uppercase;
 }
 .easter{
     opacity: 0;
@@ -543,4 +517,21 @@ section a:hover{
 }
 .easter.is-showing{
     opacity: 1;
+}
+.new-btn {
+    color: #fff;
+    font-size:2rem;
+    background:#F44336;
+    font-weight:500;
+    border: 1px solid #F44336;
+    border-radius:25px;
+    padding-right:3%;
+    padding-left:3%;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+.new-btn:hover {
+    color:#F44336;
+    background:#fff;
+    border-color:#fff;
 }
