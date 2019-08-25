@@ -84,7 +84,7 @@
     z-index: 1;
     font-size: 1.6rem;
     font-weight: 300;
-    border-bottom: 1px solid #00E676;
+    border-bottom: 1px solid ;
     transition: height .3s
 }
 
@@ -93,10 +93,11 @@
 }
 
 .site-nav a {
-    color: #ebebd3
+    color: #333356
 }
 
 .site-nav ul {
+    color: #fff;
     padding: 0;
     margin: 0
 }
@@ -138,7 +139,7 @@
     content: "";
     display: block;
     height: 3px;
-    background: #e74c3c;
+    background: #64FFDA;
     width: 3em;
     transition: .3s
 }
