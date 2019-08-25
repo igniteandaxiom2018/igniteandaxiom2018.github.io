@@ -60,7 +60,7 @@
 
 .twist {
     font-weight: 400;
-    background: #e74c3c;
+    background: #64FFDA;
     padding: 5px 8px;
     border-radius: 5px
 }
@@ -203,7 +203,7 @@
     font-size:2rem;
     background:#64FFDA;
     font-weight:500;
-    border: 1px solid #F44336;
+    border: 1px solid;
     border-radius:25px;
     padding-right:3%;
     padding-left:3%;
