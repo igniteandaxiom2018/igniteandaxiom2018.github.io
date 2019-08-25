@@ -283,7 +283,7 @@
     padding-bottom: 280px;
     color:#fff;
     background-size:cover;
-    background-image:url(https://github.com/igniteandaxiom2018/igniteandaxiom2018.github.io/blob/master/BG.jpg);
+    background-image:url(BGG.jpg);
 }
 
 .event h1 {
@@ -369,7 +369,7 @@ button:active,button:focus {
 .team {
     padding-top: 150px;
     padding-bottom: 180px;
-    background:#D32F2F;
+    background:#333356;
 }
 
 .team h1 {
@@ -524,9 +524,9 @@ section a:hover{
 .new-btn {
     color: #fff;
     font-size:2rem;
-    background:#F44336;
+    background:#333356;
     font-weight:500;
-    border: 1px solid #F44336;
+    border: 1px solid #333356;
     border-radius:25px;
     padding-right:3%;
     padding-left:3%;
@@ -534,7 +534,7 @@ section a:hover{
     padding-bottom:1%;
 }
 .new-btn:hover {
-    color:#F44336;
+    color:#333356;
     background:#fff;
     border-color:#fff;
 }
