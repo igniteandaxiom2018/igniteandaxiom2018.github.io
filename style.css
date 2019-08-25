@@ -31,7 +31,7 @@
 .se-pre-con {
     height: 100%;
     z-index: 9999;
-    background: url(loading.gif) center no-repeat #fff ;
+    background: url(load.gif) center no-repeat #fff ;
     background:cover;
     delay: 4000s;
 }
