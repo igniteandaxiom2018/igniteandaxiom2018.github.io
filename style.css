@@ -41,7 +41,8 @@
 }
 
 .scroll-nav {
-    background-color: #333356 ;
+    background-color: #fff ;
+    opacity: 0.5;
 }
 
 .header .name {
