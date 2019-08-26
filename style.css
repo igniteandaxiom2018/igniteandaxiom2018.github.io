@@ -41,8 +41,7 @@
 }
 
 .scroll-nav {
-    background-color: #fff ;
-    opacity: 0.5;
+    background-color: #333356 ;
 }
 
 .header .name {
@@ -284,7 +283,7 @@
     padding-bottom: 280px;
     color:#fff;
     background-size:cover;
-    background-image:url(https://github.com/igniteandaxiom2018/igniteandaxiom2018.github.io/blob/master/background.jpg);
+    background-image:url(background.jpg);
 }
 
 .event h1 {
